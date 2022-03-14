@@ -1,0 +1,58 @@
+* {
+  outline: 0;
+}
+
+.main-div {
+  text-align: center;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.title {
+  border: 2px solid green;
+}
+
+.form {
+  border: 2px solid purple;
+}
+
+.form input {
+  width: 80%;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px rgb(228, 228, 228) solid;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.action-button {  
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+  border: 1px rgb(228, 228, 228) solid;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.action-button:active {
+  background-color: rgb(221, 221, 221);
+}
+
+.task{
+  font-size: 16px;
+  border: 1px solid gray;
+  padding: 5px;
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.task-done{
+  font-size: 13px;
+  border: 1px solid green;
+  padding: 5px;
+  flex-grow: 1;
+  margin-right: 5px;
+  text-decoration: line-through;
+  background-color: pink;
+}
